@@ -10,7 +10,7 @@ public class ClsTrans : MonoBehaviour
     public void onBtn()
     {
         PJLinkConnection c = new PJLinkConnection("192.168.10.150",4352);
-        //   c.turnOff();
         c.turnOn();
     }
+
 }
