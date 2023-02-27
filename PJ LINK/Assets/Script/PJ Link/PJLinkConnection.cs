@@ -58,11 +58,11 @@ namespace rv
         /// <summary>
         /// hostname or IP (as string, e.g. "192.168.1.12") of the projector
         /// </summary>
-        public string _hostName = "192.168.10.150";
+         string _hostName;
         /// <summary>
         /// PJLink port, default ist 4352 (see Spec)
         /// </summary>
-        public int _port = 4352;
+         int _port;
         /// <summary>
         /// Flag is true, if the projector requires authentication
         /// </summary>
